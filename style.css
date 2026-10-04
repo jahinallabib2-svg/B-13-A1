@@ -24,7 +24,7 @@ header {
     text-align: center;
     gap: 32px;
 }
-.btn { 
+.btn a , .kela , .btn{ 
     background-color: #469165;
     padding: 12px 16px;
     gap: 10px;
@@ -34,5 +34,56 @@ header {
     color: #ffffff;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+}
+.bannu-cont {
+    background-image: url(./assets/hero-bg.png); center/ cover/ no-repeat;
+    color: #ffffff;
+    text-align: center;
+    padding: 70px 120px 134px;
+}
+
+.color-green {
+    color: #469165;
+    padding: 51px 295px 65px;
+}
+.ctn {
+padding-bottom: 16px;
+ 
+}
+.bannu {
+    position:relative;
+
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    background-color: #001931 80%
+}
+.badge {
+    display: inline-block;
+    background: #ffffff;
+    color:#28a745;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.bannu p {
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 24px;
+    margin-bottom: 30px;
+}
+.boro h1 {
+    font-size: 5em
+} 
+.bannu-buttons  { 
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
 }
 
